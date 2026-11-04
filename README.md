@@ -1,4 +1,4 @@
-![Custom Nocturna Project Logo](docs\imgs\NocturnaPNG.png)
+![Custom Nocturna Project Logo](docs/imgs/NocturnaPNG.png)
 
 
 Project Repository for Nocturna. Nocturna will be configured for fully autonomous outdoor navigation in ultra low-light environments with a wildlife detection and classification pipeline for building time-stamped wildlife population heatmaps. The Nocturna worked on in this repository is built on the **Unitree Go2 EDU Plus Hesai XT16** quadruped robot with additional changes made to the robot for the target environment. These additions will include ultra low light stereo vision module, an additional Jetson Orin compute module with 8 GB of unified memory, and a fitted platform for configuring the additional sensors and modules. 
