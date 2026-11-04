@@ -1,0 +1,90 @@
+# Ros 2
+install/
+log/
+build/
+**/rosbags/**
+
+# ROS 2: Python
+**/__pycache__/
+__pycache__/
+srv/_*.py
+*.pcd
+*.pyc
+
+# ROS 2: COLCON
+COLCON_IGNORE
+AMENT_IGNORE
+
+
+# ROS 1 (In case it used at all)
+devel/
+logs/
+build/
+bin/
+lib/
+msg_gen/
+srv_gen/
+msg/*Action.msg
+msg/*ActionFeedback.msg
+msg/*ActionGoal.msg
+msg/*ActionResult.msg
+msg/*Feedback.msg
+msg/*Goal.msg
+msg/*Result.msg
+msg/_*.py
+build_isolated/
+devel_isolated/
+*.cfgc
+/cfg/cpp/
+/cfg/*.py
+/planning/cfg
+/planning/docs
+/planning/src
+*~
+
+# ROS 1:  Emacs
+.#*
+
+# ROS 1:  CATKIN
+CATKIN_IGNORE
+
+
+# Local VS Code Config
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+.history/
+*.vsix
+.history
+.ionide
+
+
+# NVIDIA ISAAC
+.isaac_ros_common-config
+
+# NVIDIA TensorRT
+*.plan
+*.engine
+
+# NVIDIA Test &  Reports
+.tox/
+.cache/
+swapfile
+test.*
+jtop_test.*
+*.csv
+.dccache
+
+# NVIDIA isaac-ros-cli debian packaging artifacts
+debian/.debhelper/
+debian/*.debhelper
+debian/isaac-ros-cli/
+debian/*.substvars
+debian/*.debhelper.log
+debian/*-stamp
+debian/files
+.docker-deb-overrides/
