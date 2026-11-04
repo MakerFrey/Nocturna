@@ -58,8 +58,8 @@ Nocturna/
 
 ## Authors 
 
-[Nicolas Frey](https://github.com/MakerFrey)
-[Derrick Tong](ttps://github.com/DerrickT0ng)
-[Lawrence Lee](https://github.com/Lawrence850479)
-[Roberto Navajiro](https://github.com/robertonava08)
-[Jack Crawford](https://github.com/jcrawford14200)
+*    [Nicolas Frey](https://github.com/MakerFrey)
+*    [Derrick Tong](https://github.com/DerrickT0ng)
+*    [Lawrence Lee](https://github.com/Lawrence850479)
+*    [Roberto Navajiro](https://github.com/robertonava08)
+*    [Jack Crawford](https://github.com/jcrawford14200)
