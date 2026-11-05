@@ -11,16 +11,16 @@ Nocturna/
 ├── THIRD_PARTY_NOTICE.md                       <!-- Markdown of the party software & components-->
 ├── DesignPackage.pdf                           <!-- Will be a .pdf of the final README.md-->
 |
-├── design_review_slides/
+├── absolute_review_slides_/
 |   ├── slides_final.pptx
-|   └── individual_slides/
+|   └── individual_slides_/
 |       ├── slides_derrick_DT.pptx
 |       ├── slides_jack_JC.pptx
 |       ├── slides_lawrence_LL.pptx
 |       ├── slides_nicolas_NF.pptx
 |       └── slides_roberto_RN.pptx
 |
-├── additional_documentation_/
+├── additional_documentation/
 |   └── imgs/
 |
 |
