@@ -7,7 +7,6 @@ Nocturna is a UTSA ECE Capstone project developing a quadruped robot for autonom
 ```text
 Nocturna/
 ├── .gitignore/
-├── .vscode/
 ├── docs/
 |   └── imgs/
 └── README.md
