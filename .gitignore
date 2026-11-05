@@ -48,7 +48,7 @@ devel_isolated/
 CATKIN_IGNORE
 
 # Local VS Code Config
-.vscode/*
+.vscode/
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
