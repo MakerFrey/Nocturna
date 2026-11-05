@@ -15,7 +15,6 @@ srv/_*.py
 COLCON_IGNORE
 AMENT_IGNORE
 
-
 # ROS 1 (In case it used at all)
 devel/
 logs/
@@ -47,7 +46,6 @@ devel_isolated/
 
 # ROS 1:  CATKIN
 CATKIN_IGNORE
-
 
 # Local VS Code Config
 .vscode/*
@@ -88,3 +86,6 @@ debian/*.debhelper.log
 debian/*-stamp
 debian/files
 .docker-deb-overrides/
+
+# MarkdownLinter
+.markdownlint.json
