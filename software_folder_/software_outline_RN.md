@@ -8,6 +8,88 @@ The software folder of the Nocturna Design Package documentation organizes our s
 
 Figure: Architectural visualization of the software layers. From Li et al (2026). "Autonomous Navigation System for Library Service Robot Based on Unitree Go2 Edu."  [https://doi.org/10.48550/arXiv.2606.03340]
 
+## Software Folder Structure
+
+The `software_folder_` repository is organized into modular ROS 2 packages. Each functional objective is cleanly isolated into its own directory containing dedicated source code, configuration parameters, and launch files, making the project structure intuitive and easy to navigate:
+
+```text 
+software_folder_/
+├── bat_SLAM/                
+│   ├── CMakeLists.txt
+│   ├── package.xml
+│   ├── launch/
+│   │   └── slam.launch.py
+│   ├── config/
+│   │   └── slam_params.yml
+│   └── src/
+│       ├── slam_manager.cpp
+│       ├── map_manager.cpp
+│       └── localization_manager.cpp
+│
+├── bat_autonomy/              
+│   ├── CMakeLists.txt
+│   ├── package.xml
+│   ├── config/
+│   │   └── autonomy_params.yaml
+│   └── src/
+│       ├── mission_manager.cpp
+│       ├── exploration_manager.cpp
+│       ├── navigation_manager.cpp
+│       ├── obstacle_monitor.cpp
+│       └── return_manager.cpp
+│
+├── bat_heatmap/             
+│   ├── CMakeLists.txt
+│   ├── package.xml
+│   ├── config/
+│   │   └── heatmap_params.yaml
+│   └── src/
+│       ├── heatmap_generator.cpp
+│       ├── sighting_aggregator.cpp
+│       └── heatmap_manager.cpp
+│
+├── bat_communication/        
+│   ├── CMakeLists.txt
+│   ├── package.xml
+│   ├── config/
+│   │   └── communication_params.yaml
+│   └── src/
+│       ├── command_handler.cpp
+│       ├── status_publisher.cpp
+│       └── data_interface.cpp
+│
+├── bat_wildlife_detection/    
+│   ├── CMakeLists.txt
+│   ├── package.xml
+│   ├── config/
+│   │   └── detection_params.yaml
+│   └── src/
+│       ├── wildlife_detector.cpp
+│       ├── wildlife_classifier.cpp
+│       ├── detection_manager.cpp
+│       └── wildlife_localizer.cpp
+│
+├── bat_data_logging/         
+│   ├── CMakeLists.txt
+│   ├── package.xml
+│   ├── config/
+│   │   └── logging_params.yaml
+│   └── src/
+│       ├── data_logger.cpp
+│       ├── sighting_recorder.cpp
+│       └── database_manager.cpp
+│       └── mission_report.cpp
+│
+└── system_launch/             
+    ├── CMakeLists.txt
+    ├── package.xml
+    ├── launch/
+    │   ├── system.launch.py
+    │   ├── sensors.launch.py
+    │   └── robot.launch.py
+    └── config/
+        └── system_params.yaml
+```
 
 ## Project Software Packages
 
