@@ -2,7 +2,7 @@
 
 Nocturna is a UTSA ECE Capstone project developing a quadruped robot for autonomous nocturnal wildlife monitoring. This repository will function as our Design Package documentation.
 
-## Structure    <!-- Initial the ends of each file and folder you contribute to (one each. example [you did the CAD stuff]: CAD_folder_ME/ unitree_go2_CAD_ME)-->
+## Structure    
 
 ```text
 Nocturna/
