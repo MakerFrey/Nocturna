@@ -47,7 +47,7 @@ Nocturna/
         
 ```
 
-## Authors
+## Contributors
 
 * [Nicolas Frey](https://github.com/MakerFrey)
 * [Derrick Tong](https://github.com/DerrickT0ng)
