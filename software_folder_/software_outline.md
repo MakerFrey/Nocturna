@@ -13,7 +13,7 @@
 
 ---
 
-## Objective 1 – SLAM (`bat_SLAM`)
+## Objective 1 – SLAM 
 
 | Proposed File | Description |
 | :--- | :--- |
@@ -25,7 +25,7 @@
 
 ---
 
-## Objective 2 – Autonomous Navigation (`bat_autonomy`)
+## Objective 2 – Autonomous Navigation 
 
 | Proposed File | Description |
 | :--- | :--- |
