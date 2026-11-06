@@ -5,45 +5,26 @@ Nocturna is a UTSA ECE Capstone project developing a quadruped robot for autonom
 ## Structure    
 
 ```text
-Nocturna/
-├── .gitignore/                                 <!-- Keep your local repository yuck from the main branch please-->
-├── README.md
-├── THIRD_PARTY_NOTICE.md                       <!-- Markdown of the party software & components-->
-├── DesignPackage.pdf                           <!-- Will be a .pdf of the final README.md-->
+Nocturna/                          
+├── DesignPackage.pdf                     
 |
-├── absolute_review_slides_/
-|   ├── slides_final.pptx
-|   └── individual_slides_/
-|       ├── slides_derrick_DT.pptx
-|       ├── slides_jack_JC.pptx
-|       ├── slides_lawrence_LL.pptx
-|       ├── slides_nicolas_NF.pptx
-|       └── slides_roberto_RN.pptx
+├── absolute_review_slides_JC/
+|   └── slides_final.pptx
 |
-├── additional_documentation/
+├── additional_documentation_NF/
 |   └── imgs/
 |
-├── CAD_folder_/                                <!-- For the .stl/ meshes available that you can find for any and every component-->
-|   ├── README.md
-|   ├── CAD_Design_Package_.pdf                 <!-- Will be a .pdf of the final your CAD folder README.md-->
-|   └──
+├── CAD_folder_LL/
+|   └── CAD_Design_Package_.pdf                  
+|            
+├── component_folder_JC/
+|   └── Component_Design_Package_.pdf 
 |
-├── component_folder_/                          <!-- Shoot for all of the data sheets and technical specs for all of our equipment-->       
-|   ├── README.md
-|   ├── Component_Design_Package_.pdf 
-|   └──
+├── schematic_folder_DT/                        
+|   └── Schematic_Design_Package_DT.pdf    
 |
-├── schematic_folder_/                          <!-- Any PCB that exists on that component-->  
-|   ├── README.md
-|   ├── Schematic_Design_Package_.pdf    
-|   └──
-|
-└── software_folder_/
-    ├── Software_Outline_Design_Package_.md
-    └── software_code_folder_/  
-        ├── README.md
-        ├── Software_Code_Design_Package_.md
-        └── 
+└── software_folder_NF/
+    └──  Software_Outline_Design_Package_RN.md
         
 ```
 
