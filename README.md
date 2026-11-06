@@ -23,35 +23,28 @@ Nocturna/
 ├── additional_documentation/
 |   └── imgs/
 |
-|
-|
 ├── CAD_folder_/                                <!-- For the .stl/ meshes available that you can find for any and every component-->
 |   ├── README.md
 |   ├── CAD_Design_Package_.pdf                 <!-- Will be a .pdf of the final your CAD folder README.md-->
-|
-|
+|   └──
 |
 ├── component_folder_/                          <!-- Shoot for all of the data sheets and technical specs for all of our equipment-->       
 |   ├── README.md
 |   ├── Component_Design_Package_.pdf 
-|
-|
+|   └──
 |
 ├── schematic_folder_/                          <!-- Any PCB that exists on that component-->  
 |   ├── README.md
 |   ├── Schematic_Design_Package_.pdf    
-|
+|   └──
 |
 └── software_folder_/
-    ├── software_outline_folder_/
-    |   ├── README.md
-    |   ├── Software_Outline_Design_Package_.pdf
-    |
+    ├── Software_Outline_Design_Package_.md
     └── software_code_folder_/  
         ├── README.md
-        ├── Software_Code_Design_Package_.pdf
+        ├── Software_Code_Design_Package_.md
         └── 
-
+        
 ```
 
 ## Authors
