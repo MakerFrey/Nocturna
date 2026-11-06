@@ -1,19 +1,27 @@
-# B.A.T. Mobile Software Outline & File Descriptions
+# Software Outline
 
-## Project Software Packages
+The software folder of the Nocturna Design Package documentation organizes our software components to best highlight its architecture design while also providing descriptions of critical functions and variables as they are mapped into the ROS 2 Framework design philosophy.
+
+## Architecture
+
+![Architecture-Visual](Nocturna\additional_documentation_NF\imgs)
+
+Figure: Architectural visualization of the software layers. From Li et al (2026). "Autonomous Navigation System for Library Service Robot Based on Unitree Go2 Edu."  [https://doi.org/10.48550/arXiv.2606.03340]
+
+## Software Packages
 
 | Project Objective | Proposed ROS 2 Package | Core Responsibility |
 | :--- | :--- | :--- |
-| SLAM | `bat_SLAM` | Mapping, localization, and map management |
-| Heatmap | `bat_heatmap` | Wildlife activity heatmap generation |
-| Autonomy | `bat_autonomy` | Exploration, navigation, and mission planning |
-| User Communication | `bat_communication` | User commands, system status, and visualization |
-| Wildlife Detection & Classification | `bat_wildlife_detection` | Wildlife recognition and classification |
-| Data Collection & Documentation | `bat_data_logging` | Recording, organizing, and retrieving collected data |
+| SLAM | `nox_SLAM` | Mapping, localization, and map management |
+| Heatmap | `nox_heatmap` | Wildlife activity heatmap generation |
+| Autonomy | `nox_autonomy` | Exploration, navigation, and mission planning |
+| User Communication | `nox_communication` | User commands, system status, and visualization |
+| Wildlife Detection & Classification | `nox_wildlife_detection` | Wildlife recognition and classification |
+| Data Collection & Documentation | `nox_data_logging` | Recording, organizing, and retrieving collected data |
 
 ---
 
-## Objective 1 – SLAM 
+## 1. SLAM
 
 | Proposed File | Description |
 | :--- | :--- |
@@ -25,7 +33,7 @@
 
 ---
 
-## Objective 2 – Autonomous Navigation 
+## 2. Navigation
 
 | Proposed File | Description |
 | :--- | :--- |
@@ -38,7 +46,7 @@
 
 ---
 
-## Objective 3 – Heatmap Generation
+## 3. Heatmap
 
 | Proposed File | Description |
 | :--- | :--- |
@@ -49,7 +57,7 @@
 
 ---
 
-## Objective 4 – User Communication 
+## 4. Interface
 
 | Proposed File | Description |
 | :--- | :--- |
@@ -88,7 +96,7 @@
 
 | Proposed File | Description |
 | :--- | :--- |
-| `system.launch.py` | Launches the complete B.A.T. Mobile software system |
+| `system.launch.py` | Launches the complete Nocturna software system |
 | `sensors.launch.py` | Starts the required sensor drivers and interfaces |
 | `robot.launch.py` | Starts the Unitree robot interface and required robot-side components |
 | `system_params.yaml` | Stores shared system configuration parameters |
