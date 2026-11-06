@@ -4,7 +4,7 @@ The software folder of the Nocturna Design Package documentation organizes our s
 
 ## Architecture
 
-![Architecture-Visual](Nocturna\additional_documentation_NF\imgs)
+![Architecture-Visual](../additional_documentation_NF/imgs/architecturePNG.png)
 
 Figure: Architectural visualization of the software layers. From Li et al (2026). "Autonomous Navigation System for Library Service Robot Based on Unitree Go2 Edu."  [https://doi.org/10.48550/arXiv.2606.03340]
 
@@ -68,7 +68,7 @@ Figure: Architectural visualization of the software layers. From Li et al (2026)
 
 ---
 
-## Objective 5 – Wildlife Detection & Classification 
+## 5. Observation
 
 | Proposed File | Description |
 | :--- | :--- |
@@ -80,7 +80,7 @@ Figure: Architectural visualization of the software layers. From Li et al (2026)
 
 ---
 
-## Objective 6 – Data Collection & Documentation 
+## 6. Data
 
 | Proposed File | Description |
 | :--- | :--- |
@@ -92,7 +92,7 @@ Figure: Architectural visualization of the software layers. From Li et al (2026)
 
 ---
 
-## Supporting Packages – System Launch & Configuration
+## 7. Launch Packages
 
 | Proposed File | Description |
 | :--- | :--- |
