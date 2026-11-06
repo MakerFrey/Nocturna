@@ -107,7 +107,7 @@ software_folder_/
 ---
 
 
-## Objective 1 – SLAM
+## SLAM
 
 
 | Proposed File | Description |
@@ -153,7 +153,7 @@ software_folder_/
 ---
 
 
-## Objective 2 – Autonomous Navigation
+## Autonomous Navigation
 
 
 | Proposed File | Description |
@@ -222,7 +222,7 @@ software_folder_/
 ---
 
 
-## Objective 3 – Heatmap Generation
+## Heatmap Generation
 
 
 | Proposed File | Description |
@@ -266,7 +266,7 @@ software_folder_/
 ---
 
 
-## Objective 4 – User Communication
+## User Communication
 
 
 | Proposed File | Description |
@@ -313,7 +313,7 @@ software_folder_/
 ---
 
 
-## Objective 5 – Wildlife Detection & Classification
+## Wildlife Detection & Classification
 
 
 | Proposed File | Description |
@@ -369,7 +369,7 @@ software_folder_/
 ---
 
 
-## Objective 6 – Data Collection & Documentation
+## Data Collection & Documentation
 
 
 | Proposed File | Description |
