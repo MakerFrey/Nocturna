@@ -10,11 +10,11 @@ Figure: Architectural visualization of the software layers. From Li et al (2026)
 
 ## Software Folder Structure
 
-The `software_folder_` repository is organized into modular ROS 2 packages. Each functional objective is cleanly isolated into its own directory containing dedicated source code, configuration parameters, and launch files, making the project structure intuitive and easy to navigate:
+The `software_folder_NF` repository is organized into modular ROS 2 packages. Each functional objective is cleanly isolated into its own directory containing dedicated source code, configuration parameters, and launch files, making the project structure intuitive and easy to navigate:
 
 ```text 
-software_folder_/
-├── bat_SLAM/                
+software_folder_NF/
+├── nox_SLAM/                
 │   ├── CMakeLists.txt
 │   ├── package.xml
 │   ├── launch/
@@ -26,7 +26,7 @@ software_folder_/
 │       ├── map_manager.cpp
 │       └── localization_manager.cpp
 │
-├── bat_autonomy/              
+├── nox_autonomy/              
 │   ├── CMakeLists.txt
 │   ├── package.xml
 │   ├── config/
@@ -48,7 +48,7 @@ software_folder_/
 │       ├── sighting_aggregator.cpp
 │       └── heatmap_manager.cpp
 │
-├── bat_communication/        
+├── nox_communication/        
 │   ├── CMakeLists.txt
 │   ├── package.xml
 │   ├── config/
@@ -58,7 +58,7 @@ software_folder_/
 │       ├── status_publisher.cpp
 │       └── data_interface.cpp
 │
-├── bat_wildlife_detection/    
+├── nox_wildlife_detection/    
 │   ├── CMakeLists.txt
 │   ├── package.xml
 │   ├── config/
@@ -96,12 +96,12 @@ software_folder_/
 
 | Project Objective | Proposed ROS 2 Package | Core Responsibility |
 | :--- | :--- | :--- |
-| SLAM | `bat_SLAM` | Mapping, localization, and map management |
-| Heatmap | `bat_heatmap` | Wildlife activity heatmap generation |
-| Autonomy | `bat_autonomy` | Exploration, navigation, and mission planning |
-| User Communication | `bat_communication` | User commands, system status, and visualization |
+| SLAM | `nox_SLAM` | Mapping, localization, and map management |
+| Heatmap | `nox_heatmap` | Wildlife activity heatmap generation |
+| Autonomy | `nox_autonomy` | Exploration, navigation, and mission planning |
+| User Communication | `nox_communication` | User commands, system status, and visualization |
 | Wildlife Detection & Classification | `bat_wildlife_detection` | Wildlife recognition and classification |
-| Data Collection & Documentation | `bat_data_logging` | Recording, organizing, and retrieving collected data |
+| Data Collection & Documentation | `nox_data_logging` | Recording, organizing, and retrieving collected data |
 
 
 ---
@@ -482,17 +482,17 @@ software_folder_/
 To ensure clarity between original team work and external integrations, all source files follow these commenting rules:
 1. **File Headers:** Every file includes a header block stating authorship, original source URLs (if third-party), and date of creation.
 2. **Third-Party Identification:** Any code sourced from external ROS 2 packages or tutorials explicitly notes its origin in the file header.
-3. **Modification Notes:** Any adapted snippet or sample code is marked with explicit inline comments detailing *how* and *why* it was modified for the B.A.T. Mobile platform.
+3. **Modification Notes:** Any adapted snippet or sample code is marked with explicit inline comments detailing *how* and *why* it was modified for the Nocturna Senior Design Team.
    
 * **For Team-Authored Files:**
   ```cpp
   /**
    * @file file_name.cpp
    * @brief Brief description of file responsibility.
-   * @author B.A.T. Mobile Senior Design Team
+   * @author Nocturna Senior Design Team
    * @date YYYY-MM-DD
    * 
-   * @copyright Copyright (c) 2026 B.A.T. Mobile Team. All rights reserved.
+   * @copyright Copyright (c) 2026 Nocturna Senior Design Team. All rights reserved.
    *            This file is original work developed entirely by team members.
    */
 
@@ -502,7 +502,7 @@ To ensure clarity between original team work and external integrations, all sour
    * @file file_name.cpp
    * @brief Brief description of file responsibility.
    * @origin Adapted from [Name of Open-Source Project / Tutorial] (URL)
-   * @modified_by B.A.T. Mobile Senior Design Team
+   * @modified_by Nocturna Senior Design Team
    * @modification_date YYYY-MM-DD
    * 
    * @note THIRD-PARTY NOTICE: This file incorporates or builds upon open-source 
