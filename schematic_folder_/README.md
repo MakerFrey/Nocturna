@@ -8,7 +8,6 @@ This folder contains component schematic references and supporting drawings for 
 |---|---|
 | `Oak D pro W schematic.PDF` | Schematic reference for the OAK-D Pro W camera hardware. |
 | `GPS/` | Schematic and dimensional reference documents for the TEL0157 Gravity Quectel L76K GNSS positioning module. |
-| `README.md` | Overview of the schematic documentation and its intended use. |
 
 ## Camera Documentation
 
